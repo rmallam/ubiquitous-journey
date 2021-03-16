@@ -108,7 +108,7 @@ applications:
     values:
       postgresql:
         image:
-          tag: "9.6-el8"
+          tag: "9.6"
       initContainers: true
       persistence:
         enabled: false
