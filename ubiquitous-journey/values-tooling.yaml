@@ -108,6 +108,7 @@ applications:
     values:
       initContainers: true
       persistence.enabled: false
+      postgresql.image.tag: 9.6
       plugins:
         install:
           - https://github.com/checkstyle/sonar-checkstyle/releases/download/8.35/checkstyle-sonar-plugin-8.38.jar
