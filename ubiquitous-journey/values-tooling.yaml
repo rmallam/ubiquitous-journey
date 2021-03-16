@@ -108,6 +108,8 @@ applications:
     values:
       initContainers: true
       storageClass: managed-premium
+      persistence:
+          enabled: false
       plugins:
         install:
           - https://github.com/checkstyle/sonar-checkstyle/releases/download/8.35/checkstyle-sonar-plugin-8.38.jar
